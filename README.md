@@ -19,4 +19,4 @@ are processed **on-device only**. See the policy for full details.
 ## This repository
 
 This repo exists only to host the app's privacy policy as a public web page
-(served via GitHub Pages) so it can be linked from the Google Play listing.
+so it can be linked from the Google Play listing.
