@@ -2,7 +2,7 @@
 
 **App:** Haukkuri - Haukkuträkkeri (`com.softaloossi.haukkuri`)
 **Provider:** Softaloossi
-**Last updated:** 28 July 2026
+**Last updated:** 8 October 2026
 
 This app is designed to be privacy-friendly. It has **no user accounts**, **no
 advertising**, **no analytics or tracking**, and we operate **no servers** that
@@ -25,7 +25,16 @@ while the screen is off.
 ### Microphone
 With your permission, the app uses the **microphone** to detect dog barking
 on-device using a local sound-classification model. Audio is processed in real
-time on your device and is **not recorded, stored, or transmitted** anywhere.
+time on your device.
+
+Optionally (a per-device setting that is on by default and can be turned off),
+when a bark is detected the short (~1 second) audio clip that triggered the
+detection is saved **only on that device** so it can be reviewed afterwards.
+Saved clips are kept until you remove them; you can play or delete individual
+clips, clear them all, or export them as a single ZIP file into the device's
+Documents folder, from the app's settings. These clips are **never transmitted**
+anywhere and never leave the device unless you copy the exported archive off it
+yourself.
 
 ### Camera
 With your permission, the app uses the **camera** solely to scan QR codes used
@@ -37,7 +46,31 @@ To display maps, the app requests map imagery over HTTPS from the Finnish
 National Land Survey (Maanmittauslaitos). As with any internet request, that
 service can see your device's IP address and the map areas requested. We do not
 control that service; see the Maanmittauslaitos privacy terms for details. No
-other data is sent to it.
+other data is sent to it. Your own Maanmittauslaitos API key, if you enter one,
+is stored only on your device and is never shared with other users.
+
+To reduce those requests, devices also share already-downloaded **map tiles**
+directly, peer-to-peer, with members of the groups you have joined and, only if
+you join one, a **map tile channel** (a code shared between trusted groups, e.g.
+a club). Only map images are exchanged on a tile channel — no location or other
+group data — but its members can see which map areas your device asks for. If
+you turn on **"Hae puuttuvat karttaruudut ryhmälle"**, your device may also
+download map tiles from Maanmittauslaitos with your own API key on behalf of
+those members; Maanmittauslaitos then sees your device's IP address for those
+requests. This is on by default once you have saved a key — also over mobile
+data, except on a phone set up as a dog's (collar) phone — and can be turned off
+at any time.
+
+### Wind and terrain (third party)
+When you turn on the wind arrows, the app asks the Finnish Meteorological
+Institute (Ilmatieteen laitos) for the weather forecast at points across the
+visible map area. For the scent plume it also asks for the forecast at your
+position, and asks Maanmittauslaitos for terrain heights around it (with your
+own API key, if you have one). Those services can see your device's IP address
+and these coordinates; no name, identifier or other data is sent. We do not
+control those services. The forecasts are also shared peer-to-peer with the
+members of the groups you have joined, so their devices need not fetch the same
+data.
 
 ## Data storage
 Group membership, your trails, and app settings are stored **locally on your
@@ -46,7 +79,8 @@ device**. You can remove this data by leaving groups or uninstalling the app.
 ## Data sharing and selling
 We do **not** sell your data and do **not** share it with any third party for
 advertising or analytics. The only sharing that occurs is the peer-to-peer
-location sharing with group members that you explicitly join, as described above.
+location sharing with group members that you explicitly join, and the map tile
+sharing described above.
 
 ## Children
 This app is not directed at children and does not knowingly collect data from
@@ -56,6 +90,8 @@ children.
 - Location, microphone, and camera access are optional and controlled by Android
   permissions. You can revoke any of them at any time in your device settings.
 - Leaving a group stops sharing your location with its members.
+- Map tile channels are opt-in; downloading tiles for others is on by default.
+  Leave a channel or turn the setting off at any time in the app settings.
 - Uninstalling the app removes the data stored on your device.
 
 ## Changes to this policy
