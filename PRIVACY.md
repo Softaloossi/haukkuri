@@ -2,7 +2,7 @@
 
 **App:** Haukkuri - Haukkuträkkeri (`com.softaloossi.haukkuri`)
 **Provider:** Softaloossi
-**Last updated:** 8 October 2026
+**Last updated:** 28 October 2026
 
 This app is designed to be privacy-friendly. It has **no user accounts**, **no
 advertising**, **no analytics or tracking**, and we operate **no servers** that
@@ -27,7 +27,7 @@ With your permission, the app uses the **microphone** to detect dog barking
 on-device using a local sound-classification model. Audio is processed in real
 time on your device.
 
-Optionally (a per-device setting that is on by default and can be turned off),
+Optionally (a per-device setting that is off by default and that you can turn on in the app's settings),
 when a bark is detected the short (~1 second) audio clip that triggered the
 detection is saved **only on that device** so it can be reviewed afterwards.
 Saved clips are kept until you remove them; you can play or delete individual
@@ -88,7 +88,7 @@ children.
 
 ## Your choices
 - Location, microphone, and camera access are optional and controlled by Android
-  permissions. You can revoke any of them at any time in your device settings.
+  and iOS permissions. You can revoke any of them at any time in your device settings.
 - Leaving a group stops sharing your location with its members.
 - Map tile channels are opt-in; downloading tiles for others is on by default.
   Leave a channel or turn the setting off at any time in the app settings.
