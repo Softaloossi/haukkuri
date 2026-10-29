@@ -2,7 +2,7 @@
 
 **App:** Haukkuri - Haukkuträkkeri (`com.softaloossi.haukkuri`)
 **Provider:** Softaloossi
-**Last updated:** 15 September 2026
+**Last updated:** 29 October 2026
 
 These Terms of Service and End User License Agreement ("**Terms**") are a legal
 agreement between you ("**you**") and Softaloossi ("**we**", "**us**") governing
@@ -13,9 +13,16 @@ these Terms. If you do not agree, do not use the App.
 ## 1. Licence
 
 We grant you a personal, non-exclusive, non-transferable, revocable licence to
-install and use the App on Android devices that you own or control, for your own
-non-commercial use, subject to these Terms and the Google Play Terms of Service.
-This is a licence, not a sale; we retain all rights not expressly granted.
+install and use the App on Android and iOS devices that you own or control, for
+your own non-commercial use, subject to these Terms and the terms of the store
+you obtained it from (the Google Play Terms of Service or the Apple Media Services
+Terms and Conditions). This is a licence, not a sale; we retain all rights not
+expressly granted.
+
+**Apple App Store.** If you obtained the App from the Apple App Store, your
+licence is granted under Apple's standard Licensed Application End User License
+Agreement (<https://www.apple.com/legal/internet-services/itunes/dev/stdeula/>).
+These Terms supplement it; where they conflict, Apple's agreement prevails.
 
 You must not, and must not allow anyone else to:
 
@@ -27,24 +34,27 @@ You must not, and must not allow anyone else to:
 
 ## 2. Subscription, free trial, and billing
 
-Full use of the App requires an auto-renewing subscription purchased through
-**Google Play**. All payments, billing, renewals, cancellations, and refunds are
-handled by Google under the Google Play Terms of Service and your Google Play
-account settings — **we do not process payments and hold no payment details.**
+Full use of the App requires an auto-renewing yearly subscription purchased
+through the store you obtained the App from: **Google Play** on Android or the
+**Apple App Store** on iOS. All payments, billing, renewals, cancellations, and
+refunds are handled by that store under its terms and your store account
+settings — **we do not process payments and hold no payment details.**
 
-- **Free trial.** A subscription may include a free-trial period (currently up to
-  30 days for new subscribers). If you do not cancel before the trial ends, the
-  subscription converts to a paid, auto-renewing subscription and Google charges
-  the then-current price.
+- **Free trial.** A subscription may include a free-trial period for new
+  subscribers (currently 30 days on Google Play and 1 month on the App Store).
+  If you do not cancel before the trial ends, the subscription converts to a
+  paid, auto-renewing subscription and the store charges the then-current price.
 - **Auto-renewal.** The subscription renews automatically for successive periods
-  unless you cancel at least 24 hours before the end of the current period.
+  unless you cancel before it renews (on the App Store, at least 24 hours before
+  the end of the current period).
 - **Managing / cancelling.** You can manage or cancel at any time in Google Play
-  → Subscriptions. Cancellation takes effect at the end of the current paid
-  period; you keep access until then.
-- **Price changes.** We may change the subscription price. Google will notify you
-  and, where required, ask for your consent before a changed price applies.
-- **Refunds.** Refunds, where available, are handled by Google in accordance with
-  its policies and applicable consumer law.
+  → Subscriptions, or on an iPhone in Settings → your name → Subscriptions.
+  Cancellation takes effect at the end of the current paid period; you keep
+  access until then.
+- **Price changes.** We may change the subscription price. The store will notify
+  you and, where required, ask for your consent before a changed price applies.
+- **Refunds.** Refunds, where available, are handled by the store in accordance
+  with its policies and applicable consumer law.
 
 ## 3. What the App is — and important safety notice
 
@@ -71,11 +81,17 @@ You agree to:
 - comply with all applicable laws and regulations, including hunting, firearms,
   animal-welfare, wildlife, land-access, and privacy laws in your jurisdiction;
 - obtain any permissions required to hunt or access the areas you use the App in;
-- only share location and other data with group members who consent to it; and
+- only share location and other data with group members who consent to it;
 - use the App's location, microphone, and camera features lawfully and
-  responsibly.
+  responsibly; and
+- not put unlawful, offensive, harassing, or infringing content into anything
+  you share with a group, such as your name, stands (passipaikat), or areas.
 
-You are responsible for keeping your device and Google account secure. Group
+Group admins can remove members from a group. You can report abuse or
+objectionable content to us through the App's "Raportoi ongelma" or by email
+(see Contact); we act on reports promptly.
+
+You are responsible for keeping your device and store account secure. Group
 membership and data are stored on your device; you are responsible for that data
 and for any data shared peer-to-peer with members of groups you join.
 
@@ -84,9 +100,14 @@ and for any data shared peer-to-peer with members of groups you join.
 The App relies on services we do not control, and your use of them may be subject
 to their own terms:
 
-- **Google Play** (distribution and billing);
-- **Maanmittauslaitos / National Land Survey of Finland** (map imagery requested
-  over HTTPS); and
+- **Google Play** and the **Apple App Store** (distribution and billing);
+- **Maanmittauslaitos / National Land Survey of Finland** (map imagery and
+  terrain heights requested over HTTPS);
+- **OpenStreetMap** (fallback and optional base map imagery) and **Suomen
+  riistakeskus** (optional map layers);
+- the **Finnish Meteorological Institute / Ilmatieteen laitos** (weather and
+  wind forecasts);
+- **Google Forms** (problem reports you choose to send); and
 - the **Holepunch / Pear** peer-to-peer network (encrypted peer-to-peer
   connections for group location sharing).
 
@@ -96,9 +117,9 @@ services, and their inclusion is not an endorsement.
 ## 6. Privacy
 
 The App is privacy-friendly by design: no accounts, no advertising, no analytics,
-and no servers operated by us. How the App handles location, microphone, camera,
-and locally stored data is described in the Privacy Policy, which forms part of
-these Terms:
+and no server of ours stores your location or group data. How the App handles
+location, microphone, camera, problem reports, and locally stored data is
+described in the Privacy Policy, which forms part of these Terms:
 
 <https://github.com/Softaloossi/haukkuri/blob/main/PRIVACY.md>
 
