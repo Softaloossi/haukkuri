@@ -81,15 +81,9 @@ You agree to:
 - comply with all applicable laws and regulations, including hunting, firearms,
   animal-welfare, wildlife, land-access, and privacy laws in your jurisdiction;
 - obtain any permissions required to hunt or access the areas you use the App in;
-- only share location and other data with group members who consent to it;
+- only share location and other data with group members who consent to it; and
 - use the App's location, microphone, and camera features lawfully and
-  responsibly; and
-- not put unlawful, offensive, harassing, or infringing content into anything
-  you share with a group, such as your name, stands (passipaikat), or areas.
-
-Group admins can remove members from a group. You can report abuse or
-objectionable content to us through the App's "Raportoi ongelma" or by email
-(see Contact); we act on reports promptly.
+  responsibly.
 
 You are responsible for keeping your device and store account secure. Group
 membership and data are stored on your device; you are responsible for that data
