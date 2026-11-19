@@ -97,7 +97,8 @@ to their own terms:
 - **Google Play** and the **Apple App Store** (distribution and billing);
 - **Maanmittauslaitos / National Land Survey of Finland** (map imagery and
   terrain heights requested over HTTPS);
-- **OpenStreetMap** (fallback and optional base map imagery) and **Suomen
+- **OpenStreetMap** (fallback and optional base map imagery), the **Finnish
+  Environment Institute / Syke**, **Luonnonvarakeskus / Luke** and **Suomen
   riistakeskus** (optional map layers);
 - the **Finnish Meteorological Institute / Ilmatieteen laitos** (weather and
   wind forecasts);
