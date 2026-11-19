@@ -73,9 +73,16 @@ is stored only on your device and is never shared with other users.
 If you choose the OpenStreetMap base map, or when a Maanmittauslaitos map square
 cannot be loaded, the app loads map squares from **OpenStreetMap**'s tile servers
 (OpenStreetMap Foundation). If you turn on
-the **Suomen riistakeskus** map layers, the app requests them from
-`kartta.riista.fi`. Like Maanmittauslaitos, these services can see your device's
-IP address and the map areas requested, and no other data is sent to them.
+the protected-area or lead-shot ban area map layers, the app requests them from
+the Finnish Environment Institute (**Syke**, `paikkatiedot.ymparisto.fi`), and
+the wildlife triangle layer from the Natural Resources Institute Finland
+(**Luke**, `kartta.luke.fi`). Like
+Maanmittauslaitos, these services can see your device's IP address and the map
+areas requested, and no other data is sent to them. If you turn on the game
+management boundary layers, the app downloads **Suomen riistakeskus**'s open
+boundary data once (from `riista.fi` and the Dropbox links published there) and
+checks for a new version about once a month; those services see your device's
+IP address only, not your location or map area.
 
 To reduce those requests, devices also share already-downloaded **map tiles**
 directly, peer-to-peer, with members of the groups you have joined and, only if
